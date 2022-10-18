@@ -11,7 +11,9 @@ We know also that at a position x with 0 hops. The result is 1.
 
 To run the dynamic programming solution:
 
-```python dp_solution.py --start x --hops n```
+```
+python dp_solution.py --start x --hops n
+```
 
 This solution has a linear time complexity o(n) and a constant space complexity o(1).
 
@@ -28,7 +30,9 @@ python matmul_solution.py --start x --hops n
 I wrote a small script to compare the performance between the 2 solutions
 
 
-``` python test_performance_solutions.py```
+``` 
+python test_performance_solutions.py
+```
 
 The DP solution is faster :D 
 
