@@ -6,10 +6,15 @@ and a constant space complexity: o(1)
 
 
 def solution(start, nbr_hops):
+
     # test validity of parameters
     if nbr_hops < 0 or start not in range(0, 10):
         print("verify that nbr of hops is positive and start position is between 0 and 9")
         return 0
+
+    if nbr_hops == 0:
+        return 0
+
     # map each possible move for all starting points
     neighbors = {
         0: (4, 6),
